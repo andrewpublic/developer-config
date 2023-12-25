@@ -4,7 +4,7 @@ Primarily for Neovim config
 
 ## Prerequisites
 
-Windows - WSL
+Windows - WSL  
 MacOS/Linux - Nvim
 
 - Check if directory exists  
@@ -33,14 +33,14 @@ If you get language server errors, do:
 
 ## Useful Commands in Neovim
 
-Open Directory  
+- Open Directory  
 ```:Open```  
-Open Init config file
+- Open Init config file  
 ```:Init```  
-Open Lua config file
+- Open Lua config file  
 ```:Lua```  
-New Vertical Split  
+- New Vertical Split  
 ```:vsp```  
-Switch between splits (including directory)  
-```Ctrl+W```  
+- Switch between splits (including directory)  
+```Ctrl+w```  
 
