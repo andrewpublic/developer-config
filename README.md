@@ -16,6 +16,8 @@ MacOS/Linux - Nvim
 - Run neovim on the command line  
 ```nvim```
 
+:heavy_exclamation_mark: For MacOS/Linux - go to the config file and comment the Windows lines, uncomment the MacOS/Linux lines (about paths)
+
 If you get errors, press q to ignore and enter nvim
 
 - To install the referenced plugins, run inside neovim  
@@ -23,6 +25,8 @@ If you get errors, press q to ignore and enter nvim
 Note: To use :PlugInstall you will need vim-plug
 - Has to be downloaded manually
   - Use wget for vim-plug then move to Autoload folder
+
+:negative_squared_cross_mark: Note: For MacOS, the default Terminal does notsupport TrueColor (needed for colour theme). Install ITerm2 instead.
 
 If you get language server errors, do:
 
