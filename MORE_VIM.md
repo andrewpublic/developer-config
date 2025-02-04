@@ -1,63 +1,65 @@
-Find next occurence up to and including {key} in current line
-f{key}
+### Vim commands 201
 
-Find next occurrence up to but not including {key} in current line
-t{key}
+- Find next occurence up to and including {key} in current line  
+```f{key}```
 
-Find previous occurence up to and including {key} in current line
-F{key}
+- Find next o- ccurrence up to but not including {key} in current line  
+```t{key}```
 
-Find previous occurrence up to but not including {key} in current line
-T{key}
+- Find previo- us occurence up to and including {key} in current line  
+```F{key}```
 
-Highlight current line
-V
+- Find previo- us occurrence up to but not including {key} in current line  
+```T{key}```
 
-Create new line above -> go to new line
-O
+- Highlight c- urrent line  
+```V```
 
-Paste before cursor
-P
+- Create-  new line above -> go to new line  
+```O```
 
-Go to end of word
-e
+- Paste - before cursor  
+```P```
 
-Go to previous word
-b
+- Go to - end of word  
+```e```
 
-Find next occurrence of current word (under cursor)
-`*`
+- Go to - previous word  
+```b```
 
-Find previous occurrence of current word (under cursor)
-`#`
+- Find n- ext occurrence of current word (under cursor)  
+```*```
 
-Delete line until end
-d$
-or
-D
+- Find pre- vious occurrence of current word (under cursor)  
+```#```
 
-Delete line until end and go to insert mode
-c$
-or
-C
+- Delete line until end  
+```d$```  
+or  
+```D```
 
-Replace a character
-r
+Delete line until end and go to insert mode  
+```c$```  
+or  
+```C```
 
-Delete a character and enter insert mode
-s
+- Re- place a character  
+```r```
 
-Go to end of line and enter insert mode
-A
+- Delete-  a character and enter insert mode  
+```s```
 
-Format line
-=ap
+- Go to - end of line and enter insert mode  
+```A```
 
-Go to first non-whitespace character in the line
-_
+- Format-  line  
+```=ap```
 
-Delete paragraph
-dap
+- Go to fi- rst non-whitespace character in the line  
+```_```
 
-Clear highlighted text (eg. when searching)
-:noh
+- Delete-  paragraph  
+```dap```
+
+- Clear hi- ghlighted text (eg. when searching)  
+```:noh```

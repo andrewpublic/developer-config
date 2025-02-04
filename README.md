@@ -26,35 +26,35 @@ MacOS/Linux - iTerm2
 
 If you get language server errors, do:
 
-- Open Mason lsp-installer
+- Open Mason lsp-installer  
 ```:Mason```
-- Install relevant language servers referenced in :Lua
+- Install relevant language servers referenced in :Lua  
 ```/bash -> i```
 
 ## Useful Commands in our Neovim Config
 
-- New Vertical Split (general)
+- New Vertical Split (general)  
 ```:vsp```  
-- Switch between splits (general)
+- Switch between splits (general)  
 ```Ctrl+w```  
 
-Usage Pattern: Go to directory then run "nvim ."
-- Search File Name
+### Usage Pattern: Go to directory then run "nvim ."
+- Search File Name  
 ```<space>fs```
-- Code Search (text lookup aka grep)
+- Code Search (text lookup aka grep)  
 ```<space>gr{text_input}```
-- Navigate UndoTree (similar to Git history except local)
+- Navigate UndoTree (similar to Git history except local)  
 ```<space>fu```
-- Solution Explorer (at current directory level)
+- Solution Explorer (at current directory level)  
 ```<space>fj```
-- Open Git Explorer (custom)
+- Open Git Explorer (custom)  
 ```<space>git OR Ctrl+P```
-- Add bookmark
+- Add bookmark  
 ```<space>a```
-- Navigate bookmarks
+- Navigate bookmarks  
 ```<space>e```
-- Quick shortcut to bookmarks (1-4)
+- Quick shortcut to bookmarks (1-4)  
 ```Ctrl+j/k/l/;```
-- Go to next/prev bookmark
+- Go to next/prev bookmark  
 ```Ctrl+Shift+K/J```
 
