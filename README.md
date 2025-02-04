@@ -1,11 +1,13 @@
 # Developer Setup
 
+## Updated February 2025
+
 Primarily for Neovim config
 
-## Prerequisites
+### Prerequisites
 
-Windows - WSL  
-MacOS/Linux - Nvim
+Windows - WSL or Git Bash 
+MacOS/Linux - iTerm2
 
 - Check if directory exists  
 ```~/.config```  
@@ -16,17 +18,11 @@ MacOS/Linux - Nvim
 - Run neovim on the command line  
 ```nvim```
 
-:heavy_exclamation_mark: For MacOS/Linux - go to the config file and comment the Windows lines, uncomment the MacOS/Linux lines (about paths)
-
-If you get errors, press q to ignore and enter nvim
+### Package Manager
 
 - To install the referenced plugins, run inside neovim  
-```:PlugInstall```  
-Note: To use :PlugInstall you will need vim-plug
-- Has to be downloaded manually
-  - Use wget for vim-plug then move to Autoload folder
-
-:negative_squared_cross_mark: Note: For MacOS, the default Terminal does notsupport TrueColor (needed for colour theme). Install ITerm2 instead.
+```:PackerSync```  
+(You may have to go inside the nvim/lua/andrewpublic/packer.lua file)
 
 If you get language server errors, do:
 
@@ -35,16 +31,30 @@ If you get language server errors, do:
 - Install relevant language servers referenced in :Lua
 ```/bash -> i```
 
-## Useful Commands in Neovim
+## Useful Commands in our Neovim Config
 
-- Open Directory  
-```:Open```  
-- Open Init config file  
-```:Init```  
-- Open Lua config file  
-```:Lua```  
-- New Vertical Split  
+- New Vertical Split (general)
 ```:vsp```  
-- Switch between splits (including directory)  
+- Switch between splits (general)
 ```Ctrl+w```  
+
+Usage Pattern: Go to directory then run "nvim ."
+- Search File Name
+```<space>fs```
+- Code Search (text lookup aka grep)
+```<space>gr{text_input}```
+- Navigate UndoTree (similar to Git history except local)
+```<space>fu```
+- Solution Explorer (at current directory level)
+```<space>fj```
+- Open Git Explorer (custom)
+```<space>git OR Ctrl+P```
+- Add bookmark
+```<space>a```
+- Navigate bookmarks
+```<space>e```
+- Quick shortcut to bookmarks (1-4)
+```Ctrl+j/k/l/;```
+- Go to next/prev bookmark
+```Ctrl+Shift+K/J```
 
